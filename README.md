@@ -3,42 +3,42 @@
     
     README.md
     
-        {name}：文档中文名
-        {nameEn}：文档英文名
-        {urlEn}：文档原始链接
-        {domain}：域名前缀
-        {adminName}：负责人名称
-        {adminUn}：负责人 Github 用户名
-        {adminQq}：负责人 QQ
-        {repo}：ApacheCN 的 Github 仓库名称
-        {dockerName}：DockerHub 仓库名称
-        {pypiName}：PYPI 包名称
-        {npmName}：NPM 包名称
+        命令行上的数据科学第二版：文档中文名
+        Data Science at the Command Line：文档英文名
+        https://datascienceatthecommandline.com/2e/：文档原始链接
+        dscl：域名前缀
+        飞龙：负责人名称
+        wizardforcel：负责人 Github 用户名
+        562826179：负责人 QQ
+        ds-cmd-line-2e-zh：ApacheCN 的 Github 仓库名称
+        ds-cmd-line-2e-zh：DockerHub 仓库名称
+        ds-cmd-line-2e-zh：PYPI 包名称
+        ds-cmd-line-2e-zh：NPM 包名称
     
     CNAME
     
-        {domain}：域名前缀
+        dscl：域名前缀
 
     index.html
     
-        {name}：文档中文名
-        {color}：显示颜色
-        {repo}：ApacheCN 的 Github 仓库名称
+        命令行上的数据科学第二版：文档中文名
+        #e51837：显示颜色
+        ds-cmd-line-2e-zh：ApacheCN 的 Github 仓库名称
 
     asset/docsify-apachecn-footer.js
     
-        {repo}：ApacheCN 的 Github 仓库名称
+        ds-cmd-line-2e-zh：ApacheCN 的 Github 仓库名称
 -->
 
-# {name}
+# 命令行上的数据科学第二版
 
-> 原文：[{nameEn}]({urlEn})
+> 原文：[Data Science at the Command Line](https://datascienceatthecommandline.com/2e/)
 > 
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 > 
 > 利欲驱人万火牛，江湖浪迹一沙鸥。——陆游《秋思》
 
-* [在线阅读](https://{domain}.apachecn.org)
+* [在线阅读](https://dscl.apachecn.org)
 * [在线阅读（Gitee）](https://apachecn.gitee.io/doc-template/)
 * [ApacheCN 学习资源](http://docs.apachecn.org/)
 
@@ -52,11 +52,11 @@
 
 ### 负责人
 
-* [{adminName}](https://github.com/{adminUn}): {adminQq}
+* [飞龙](https://github.com/wizardforcel): 562826179
 
 ### 其他
 
-*   在我们的 [apachecn/{repo}](https://github.com/apachecn/{repo}) github 上提 issue.
+*   在我们的 [apachecn/ds-cmd-line-2e-zh](https://github.com/apachecn/ds-cmd-line-2e-zh) github 上提 issue.
 *   发邮件到 Email: `apachecn@163.com`.
 *   在我们的 [组织学习交流群](https://www.apachecn.org/#/docs/join) 中联系群主/管理员即可.
 
@@ -65,24 +65,24 @@
 ### Docker
 
 ```
-docker pull apachecn0/{dockerName}
-docker run -tid -p <port>:80 apachecn0/{dockerName}
+docker pull apachecn0/ds-cmd-line-2e-zh
+docker run -tid -p <port>:80 apachecn0/ds-cmd-line-2e-zh
 # 访问 http://localhost:{port} 查看文档
 ```
 
 ### PYPI
 
 ```
-pip install {pypiName}
-{pypiName} <port>
+pip install ds-cmd-line-2e-zh
+ds-cmd-line-2e-zh <port>
 # 访问 http://localhost:{port} 查看文档
 ```
 
 ### NPM
 
 ```
-npm install -g {npmName}
-{npmName} <port>
+npm install -g ds-cmd-line-2e-zh
+ds-cmd-line-2e-zh <port>
 # 访问 http://localhost:{port} 查看文档
 ```
 
