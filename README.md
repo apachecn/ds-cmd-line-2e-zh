@@ -1,42 +1,10 @@
-<!--
-    需要填充的占位符：
-    
-    README.md
-    
-        命令行上的数据科学第二版：文档中文名
-        Data Science at the Command Line：文档英文名
-        https://datascienceatthecommandline.com/2e/：文档原始链接
-        dscl：域名前缀
-        飞龙：负责人名称
-        wizardforcel：负责人 Github 用户名
-        562826179：负责人 QQ
-        ds-cmd-line-2e-zh：ApacheCN 的 Github 仓库名称
-        ds-cmd-line-2e-zh：DockerHub 仓库名称
-        ds-cmd-line-2e-zh：PYPI 包名称
-        ds-cmd-line-2e-zh：NPM 包名称
-    
-    CNAME
-    
-        dscl：域名前缀
-
-    index.html
-    
-        命令行上的数据科学第二版：文档中文名
-        #e51837：显示颜色
-        ds-cmd-line-2e-zh：ApacheCN 的 Github 仓库名称
-
-    asset/docsify-apachecn-footer.js
-    
-        ds-cmd-line-2e-zh：ApacheCN 的 Github 仓库名称
--->
-
 # 命令行上的数据科学第二版
 
 > 原文：[Data Science at the Command Line](https://datascienceatthecommandline.com/2e/)
 > 
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 > 
-> 利欲驱人万火牛，江湖浪迹一沙鸥。——陆游《秋思》
+> 收割 SB 的人会被 SB 们封神，试图唤醒 SB 的人是 SB 眼中的 SB。——SB 第三定律
 
 * [在线阅读](https://dscl.apachecn.org)
 * [在线阅读（Gitee）](https://apachecn.gitee.io/doc-template/)
