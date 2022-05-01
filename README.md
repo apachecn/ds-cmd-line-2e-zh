@@ -56,10 +56,6 @@ ds-cmd-line-2e-zh <port>
 # 访问 http://localhost:{port} 查看文档
 ```
 
-## 其它协议
-
-霞鹜文楷采用 [SIL 开放字体协议 1.1](https://github.com/lxgw/LxgwWenKai/blob/main/SIL_Open_Font_License_1.1.txt)。
-
 ## 赞助我们
 
 ![](http://data.apachecn.org/img/about/donate.jpg)
