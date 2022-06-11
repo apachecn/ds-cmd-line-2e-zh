@@ -1,6 +1,8 @@
 # 前言
 
 > 原文：<https://datascienceatthecommandline.com/2e/preface.html>
+> 
+> 贡献者：[Ting-xin](https://github.com/Ting-xin)
 
 数据科学是一个令人兴奋的工作领域，相对而言它还比较年轻。不幸的是，许多人和许多公司都认为，你需要新技术来解决数据科学带来的问题。然而，正如这本书所展示的，许多事情可以通过使用命令行来完成，有时它是一种更有效的方式。
 
