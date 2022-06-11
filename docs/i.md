@@ -1,6 +1,8 @@
 # 序
 
 > 原文：<https://datascienceatthecommandline.com/2e/foreword.html>
+> 
+> 贡献者：[Ting-xin](https://github.com/Ting-xin)
 
 这是一见钟情。
 
