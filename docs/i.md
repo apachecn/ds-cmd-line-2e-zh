@@ -12,9 +12,9 @@
 
 作为一个初学者，其他形式的编程似乎更像是需要严格遵守的食谱、小心翼翼的咒语或者像是在等待老师给你写的论文打分，因此你必须把每件事都做对。但是使用 shell 编程就没有编译和等待。这更像是和一个朋友之间的谈话。当朋友不理解时，你可以很容易地再试一次。更重要的是，如果你只是有简单的事情要说，你可以只用一个词来说。而且，你可能想说的一大堆话可能都已经有了对应的说法。如果没有，你可以很容易地创造出新的单词。最终你可以把你学到的单词和你编造的单词串成逐渐复杂的句子、段落，并最终达到说服力的文章。
 
-几乎所有其他的编程语言都比 shell 及其相关工具更加强大，但至少对我来说，没有一种语言能比 shell 提供更容易进入编程思维的途径，也没有一种语言能提供更好的环境来与我们工作的机器进行日常对话。正如 AWK 的创始人之一、也是《Unix编程环境》这本了不起的书的作者之一布莱恩·柯尼根(Brian Kernighan) 在 2019 年接受莱克斯·弗里德曼(Lex Fridman) 采访时所说，“ Unix 本来就是一个非常容易编写程序的环境。”[【00:23:10】](https://www.happyscribe.com/public/lex-fridman-podcast-artificial-intelligence-ai/109-brian-kernighan-unix-c-awk-ampl-and-go-programming#paragraph_1371)他继续解释为什么他在探索数据时仍然经常使用 AWK 而不是编写 Python 程序：“它不能扩展成大的程序，但是它在那些你想看到一些东西的小事情上做得非常好。”[【00:37:01】](https://www.happyscribe.com/public/lex-fridman-podcast-artificial-intelligence-ai/109-brian-kernighan-unix-c-awk-ampl-and-go-programming#paragraph_2221)
+几乎所有其他的编程语言都比 shell 及其相关工具更加强大，但至少对我来说，没有一种语言能比 shell 提供更容易进入编程思维的途径，也没有一种语言能提供更好的环境来与我们工作的机器进行日常对话。正如 AWK 的创始人之一、也是《Unix 编程环境》这本了不起的书的作者之一布莱恩·柯尼根(Brian Kernighan) 在 2019 年接受莱克斯·弗里德曼(Lex Fridman) 采访时所说，“ Unix 本来就是一个非常容易编写程序的环境。”[【00:23:10】](https://www.happyscribe.com/public/lex-fridman-podcast-artificial-intelligence-ai/109-brian-kernighan-unix-c-awk-ampl-and-go-programming#paragraph_1371)他继续解释为什么他在探索数据时仍然经常使用 AWK 而不是编写 Python 程序：“它不能扩展成大的程序，但是它在那些你想看到一些东西的小事情上做得非常好。”[【00:37:01】](https://www.happyscribe.com/public/lex-fridman-podcast-artificial-intelligence-ai/109-brian-kernighan-unix-c-awk-ampl-and-go-programming#paragraph_2221)
 
-在《命令行上的数据科学》一书中，耶鲁安·扬森斯(Jeroen Janssens) 展示了即使在现在， Unix/Linux 的命令行方式也是非常强大。如果耶鲁安(Jeroen) 还没有这样做，我也会在这里写一篇文章，解释为什么命令行对于数据科学中经常遇到的各种任务是如此的亲近和匹配。但是他已经在他的书的开头解释了这一点。所以我只想说:你越是使用命令行，你就会发现自己越是青睐于使用它，因为它是完成大部分工作的最简单方法。无论你是一个shell新手，还是一个没有考虑过 shell 编程对数据科学有多大帮助的人，这本书都会让你受益匪浅。Jeroen是一位伟大的老师，他所涉及的材料是无价的。
+在《命令行上的数据科学》一书中，耶鲁安·扬森斯(Jeroen Janssens) 展示了即使在现在， Unix/Linux 的命令行方式也是非常强大。如果耶鲁安(Jeroen) 还没有这样做，我也会在这里写一篇文章，解释为什么命令行对于数据科学中经常遇到的各种任务是如此的亲近和匹配。但是他已经在他的书的开头解释了这一点。所以我只想说:你越是使用命令行，你就会发现自己越是青睐于使用它，因为它是完成大部分工作的最简单方法。无论你是一个 shell 新手，还是一个没有考虑过 shell 编程对数据科学有多大帮助的人，这本书都会让你受益匪浅。Jeroen 是一位伟大的老师，他所涉及的材料是无价的。
 
 <p style="text-align: right; font-style: italic">
 —Tim O’Reilly<br>

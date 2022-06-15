@@ -33,12 +33,12 @@
 *   我现在使用`pup`而不是`scrape`来处理 HTML`scrape`是我自己创造的一个 Python 工具，`pup`速度更快，功能更多，更易于安装
 *   [第六章](chapter-6-project-management-with-make.html#chapter-6-project-management-with-make)已经从头重写，我现在用`make`而不是`drake`来做项目管理，`drake`不再维护，`make`更加成熟，并且非常受开发者欢迎
 *   我把`Rio`换成了`rush`，`Rio`是我自己创建的一个笨拙的 Bash 脚本，`rush`是一个 R 包，它是从命令行使用 R 的一种更加稳定和灵活的方式
-*   [在第九章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我用 Vowpal Wabbit ( `vw`)替换了 Weka 和 BigML，Weka 很旧，从命令行使用它的方式也很笨拙。BigML是一个商业API，我不想再依赖它。Vowpal Wabbit是一个非常成熟的机器学习工具，它开始在雅虎开发，现在在微软。
+*   [在第九章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我用 Vowpal Wabbit ( `vw`)替换了 Weka 和 BigML，Weka 很旧，从命令行使用它的方式也很笨拙。BigML 是一个商业 API，我不想再依赖它。Vowpal Wabbit 是一个非常成熟的机器学习工具，它开始在雅虎开发，现在在微软。
 *   [第 10 章](https://datascienceatthecommandline.com/2e/chapter-10-polyglot-data-science.html)是关于将命令行集成到现有工作流的全新章节，包括 Python、R 和 Apache Spark。在第一版中，我提到过命令行可以很容易地与现有的工作流集成，但我从未深入探讨过，本章解决了这个问题
 
 ## 如何阅读这本书
 
-总的来说，我建议你以线性方式阅读这本书。一旦我在前面介绍了一个概念或命令行工具，我就有可能在后面的章节中用到它。例如，在[第9章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我大量使用了在[第8章](https://datascienceatthecommandline.com/2e/chapter-8-parallel-pipelines.html#chapter-8-parallel-pipelines)中广泛介绍的并行。
+总的来说，我建议你以线性方式阅读这本书。一旦我在前面介绍了一个概念或命令行工具，我就有可能在后面的章节中用到它。例如，在[第 9 章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我大量使用了在[第 8 章](https://datascienceatthecommandline.com/2e/chapter-8-parallel-pipelines.html#chapter-8-parallel-pipelines)中广泛介绍的并行。
 
 数据科学是一个广泛的领域，与许多其他领域都都有交叉，比如编程、数据可视化和机器学习。因此，这本书触及了许多有趣的话题，但遗憾的是，这些话题无法得到充分的讨论。在全书中，每一章的结尾都有进一步探索的建议。为了跟上本书的进度，并不要求阅读这些材料，但当你有兴趣时，你就知道还有很多东西要学。
 
@@ -46,9 +46,9 @@
 
 本书只对你做了一个假设：你在与数据打交道。你目前正在使用哪种编程语言或统计计算环境并不重要。本书从一开始就解释了所有必要的概念。
 
-无论你的操作系统是微软的Windows，macOS，还是某种类型的Linux，这些都无所谓。本书附带一个Docker镜像，这是一个易于安装的虚拟环境，它允许你在与本书相同的环境中运行命令行工具并跟随代码示例。你不必浪费时间去弄清楚如何安装所有的命令行工具和它们的依赖关系。
+无论你的操作系统是微软的 Windows，macOS，还是某种类型的 Linux，这些都无所谓。本书附带一个 Docker 镜像，这是一个易于安装的虚拟环境，它允许你在与本书相同的环境中运行命令行工具并跟随代码示例。你不必浪费时间去弄清楚如何安装所有的命令行工具和它们的依赖关系。
 
-这本书包含了一些Bash、Python和R的代码，所以如果你有一些编程经验的话会很有帮助，你也不一定非要跟着例子走。
+这本书包含了一些 Bash、Python 和 R 的代码，所以如果你有一些编程经验的话会很有帮助，你也不一定非要跟着例子走。
 
 ## 本书中使用的惯例
 
@@ -79,19 +79,19 @@
 
 ### 第二版(2021)致谢
 
-自第一版问世以来，已经过去了七年。在这段时间里，特别是在过去13个月里，许多人帮助了我。没有他们，我就永远无法写出第二版。
+自第一版问世以来，已经过去了七年。在这段时间里，特别是在过去 13 个月里，许多人帮助了我。没有他们，我就永远无法写出第二版。
 
-我再次有幸与O'Reilly 公司中的三位出色的编辑合作。我要感谢 "拥抱最后期限 "的Sarah Grey、"全力以赴 "的Jess Haberman和 "顺其自然 "的Kate Galloway。在他们不可思议的帮助下，我能够最后期限前完成，并且在关键时刻心无旁骛，最终放手其它事。我还要感谢他们的同事：Angela Rufino, Arthur Johnson, Cassandra Furtado, David Futato, Helen Monroe, Karen Montgomery, Kate Dullea, Kristen Brown, Marie Beaugureau, Marsee Henon, Nick Adams, Regina Wilkinson, Shannon Cutt, Shannon Turlington, and Yasmina Greco, 是他们让我与O'Reilly 公司的合作变得如此愉快。
+我再次有幸与 O'Reilly 公司中的三位出色的编辑合作。我要感谢 "拥抱最后期限 "的 Sarah Grey、"全力以赴 "的 Jess Haberman 和 "顺其自然 "的 Kate Galloway。在他们不可思议的帮助下，我能够最后期限前完成，并且在关键时刻心无旁骛，最终放手其它事。我还要感谢他们的同事：Angela Rufino, Arthur Johnson, Cassandra Furtado, David Futato, Helen Monroe, Karen Montgomery, Kate Dullea, Kristen Brown, Marie Beaugureau, Marsee Henon, Nick Adams, Regina Wilkinson, Shannon Cutt, Shannon Turlington, and Yasmina Greco, 是他们让我与 O'Reilly 公司的合作变得如此愉快。
 
-尽管有一个自动化的程序来执行代码并将结果粘贴回来（感谢R Markdown和Docker），但我能够犯的错误数量还是令人印象深刻。感谢Aaditya Maruthi、Brian Eoff、Caitlin Hudon、Julia Silge、Mike Dewar和Shane Reustle极大地减少了这个数字。当然，留下的任何错误都是我的责任。
+尽管有一个自动化的程序来执行代码并将结果粘贴回来（感谢 R Markdown 和 Docker），但我能够犯的错误数量还是令人印象深刻。感谢 Aaditya Maruthi、Brian Eoff、Caitlin Hudon、Julia Silge、Mike Dewar 和 Shane Reustle 极大地减少了这个数字。当然，留下的任何错误都是我的责任。
 
-Marc Canaleta 值得我们特别感谢。2014年10月，在第一版问世后不久，马克邀请我为他在巴塞罗那Social Point的团队举办了为期一天的关于命令行的数据科学的研讨会。我们都不知道，接下来会有很多研讨会。这最终促使我成立了自己的公司：数据科学研讨会。每次授课，我都能学到新东西。他们可能不知道，但每个学生都以这样或那样的方式对这本书产生了影响。我对他们说：谢谢你们。我希望我可以在很长一段时间内教书。
+Marc Canaleta 值得我们特别感谢。2014 年 10 月，在第一版问世后不久，马克邀请我为他在巴塞罗那 Social Point 的团队举办了为期一天的关于命令行的数据科学的研讨会。我们都不知道，接下来会有很多研讨会。这最终促使我成立了自己的公司：数据科学研讨会。每次授课，我都能学到新东西。他们可能不知道，但每个学生都以这样或那样的方式对这本书产生了影响。我对他们说：谢谢你们。我希望我可以在很长一段时间内教书。
 
 吸引人的对话、精彩的建议和热情的拉动请求。我非常感谢以下慷慨人士的每一个贡献：Adam Johnson, Andre Manook, Andrea Borruso, Andres Lowrie, Andrew Berisha, Andrew Gallant, Andrew Sanchez, Anicet Ebou, Anthony Egerton, Ben Isenhart, [. keep-together]#Chris Wiggins#, Chrys Wu, Dan Nguyen, Darryl Amatsetam, Dmitriy Rozhkov, Doug Needham, Edgar Manukyan, Erik Swan, Felienne Hermans, George Kampolis, Giel van Lankveld, Greg Wilson, Hay Kranen, Ioannis Cherouvim, Jake Hofman, Jannes Muenchow, Jared Lander, Jay Roaf, Jeffrey Perkel, Jim Hester, Joachim Hagege, Joel Grus, John Cook, John Sandall, Joost Helberg, Joost van Dijk, Joyce Robbins, Julian Hatwell。Karlo Guidoni, Karthik Ram, Lissa Hyacinth, Longhow Lam, Lui Pillmann, Lukas Schmid, Luke Reding, Maarten van Gompel, Martin Braun, Max Schelker, Max Shron, Nathan Furnal, Noah Chase, Oscar Chic, Paige Bailey, Peter Saalbrink, Rich Pauloo, Richard Groot, Rico Huijbers, Rob Doherty, Robbert van Vlijmen, Russell Scudder, Sylvain Lapoix, TJ Lavelle, Tan Long, Thomas Stone, Tim O'Reilly, Vincent Warmerdam, and Yihui X。
 
-在本书中，特别是在脚注和附录中，你会发现有数百个名字。这些名字属于许多工具、书籍和其他资源的作者，而本书正是基于这些资源。我非常感谢他们的辛勤工作，无论这些工作是在50年前还是50天前完成的。
+在本书中，特别是在脚注和附录中，你会发现有数百个名字。这些名字属于许多工具、书籍和其他资源的作者，而本书正是基于这些资源。我非常感谢他们的辛勤工作，无论这些工作是在 50 年前还是 50 天前完成的。
 
-最重要的是，我要感谢我的妻子Esther、我的女儿Florien和我的儿子Olivier，他们每天都在提醒我什么才是真正重要的。我保证要过几年才会开始写第三版。
+最重要的是，我要感谢我的妻子 Esther、我的女儿 Florien 和我的儿子 Olivier，他们每天都在提醒我什么才是真正重要的。我保证要过几年才会开始写第三版。
 
 ### 第一版致谢 (2014)
 
@@ -99,10 +99,10 @@ Marc Canaleta 值得我们特别感谢。2014年10月，在第一版问世后不
 
 特别感谢我的技术审查员 Mike Dewar、Brian Eoff 和 Shane Reustle 阅读了各种草稿，仔细测试了所有命令，并提供了宝贵的反馈。他们的努力极大地改进了这本书，留下的任何错误都是我的责任。
 
-我有幸与三位了不起的编辑一起工作：Ann Spencer, Julie Steele, 和Marie Beaugureau。感谢你们的指导，感谢你们成为 O'Reilly 公司众多优秀人才的联络人。这些人包括 Laura Baldwin, Huguette Barriere, Sophia DeMartini, Yasmina Greco, Rachel James, Ben Lorica, Mike Loukides, and Christopher Pappas。还有许多人我没有见过，因为他们在幕后操作。他们共同确保了与 O'Reilly 公司的合作确实是一种乐趣。
+我有幸与三位了不起的编辑一起工作：Ann Spencer, Julie Steele, 和 Marie Beaugureau。感谢你们的指导，感谢你们成为 O'Reilly 公司众多优秀人才的联络人。这些人包括 Laura Baldwin, Huguette Barriere, Sophia DeMartini, Yasmina Greco, Rachel James, Ben Lorica, Mike Loukides, and Christopher Pappas。还有许多人我没有见过，因为他们在幕后操作。他们共同确保了与 O'Reilly 公司的合作确实是一种乐趣。
 
-本书讨论了80多个命令行工具。不用说，没有这些工具，这本书首先就不会存在。因此，我非常感谢所有创造和贡献这些工具的作者。遗憾的是，完整的作者名单太长了，无法在此列出；在附录中提到了他们。特别感谢Aaron Crow、Jehiah Czebotar、Christoph Groskopf、Dima Kogan、Sergey Lisitsyn、Francisco J. Martin和Ole Tange提供的帮助，他们的命令行工具令人惊叹。
+本书讨论了 80 多个命令行工具。不用说，没有这些工具，这本书首先就不会存在。因此，我非常感谢所有创造和贡献这些工具的作者。遗憾的是，完整的作者名单太长了，无法在此列出；在附录中提到了他们。特别感谢 Aaron Crow、Jehiah Czebotar、Christoph Groskopf、Dima Kogan、Sergey Lisitsyn、Francisco J. Martin 和 Ole Tange 提供的帮助，他们的命令行工具令人惊叹。
 
-Eric Postma和Jaap van den Herik在我的博士课程期间指导过我，值得特别感谢。在五年的时间里，他们给我上了很多课。尽管写一本技术书与写一篇博士论文有很大的不同，但其中许多教训在过去九个月里也被证明是非常有帮助的。
+Eric Postma 和 Jaap van den Herik 在我的博士课程期间指导过我，值得特别感谢。在五年的时间里，他们给我上了很多课。尽管写一本技术书与写一篇博士论文有很大的不同，但其中许多教训在过去九个月里也被证明是非常有帮助的。
 
-最后，我要感谢我在YPlan的同事，我的朋友，我的家人，特别是我的妻子Esther，感谢他们支持我，并在适当的时候把我从命令行的工作中拉出来。
+最后，我要感谢我在 YPlan 的同事，我的朋友，我的家人，特别是我的妻子 Esther，感谢他们支持我，并在适当的时候把我从命令行的工作中拉出来。
