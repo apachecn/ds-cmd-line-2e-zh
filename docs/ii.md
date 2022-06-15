@@ -62,7 +62,7 @@
 
 用于代码和命令，以及在段落中引用命令行工具及其选项。
 
-**`Constant width bold`**
+`Constant width bold`
 
 显示应由用户按字面意思输入的命令或其他文本。
 
