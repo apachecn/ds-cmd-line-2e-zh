@@ -66,23 +66,14 @@
 
 显示应由用户按字面意思输入的命令或其他文本。
 
-<div style='margin: 1rem calc(-2px - 0.5em);
-    padding: 1rem;
-    border: 2px solid #17a2b8;'>
-This element signifies a tip or suggestion.
-</div>
+> This element signifies a tip or suggestion.
 
-<div style='margin: 1rem calc(-2px - 0.5em);
-    padding: 1rem;
-    border: 2px solid #0369a1;'>
-This element signifies a general note.
-</div>
 
-<div style='margin: 1rem calc(-2px - 0.5em);
-    padding: 1rem;
-    border: 2px solid #dc3545;'>
-This element indicates a warning or caution.
-</div>
+> This element signifies a general note.
+
+
+> This element indicates a warning or caution.
+
 
 ## 承认
 
