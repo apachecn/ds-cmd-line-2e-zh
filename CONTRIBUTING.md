@@ -6,23 +6,6 @@
 
 +   [飞龙](https://github.com/wizardforcel)：562826179
 
-## 章节列表
-
-+   [序](docs/i.md)
-+   [前言](docs/ii.md)
-+   [1 简介](docs/01.md)
-+   [2 开始](docs/02.md)
-+   [3 获取数据](docs/03.md)
-+   [4 创建命令行工具](docs/04.md)
-+   [5 清理数据](docs/05.md)
-+   [6 项目管理与`make`](docs/06.md)
-+   [7 探索数据](docs/07.md)
-+   [8 并行管道](docs/08.md)
-+   [9 建模数据](docs/09.md)
-+   [10 多语言数据科学](docs/10.md)
-+   [11 总结](docs/11.md)
-+   [附录：命令行工具列表](docs/12.md)
-
 ## 流程
 
 ### 一、认领
