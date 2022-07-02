@@ -6,6 +6,16 @@
 
 +   [飞龙](https://github.com/wizardforcel)：562826179
 
+## 有用的链接
+
++   [ApacheCN 文档导航](https://docs.apachecn.org/)
++   [谷歌翻译](https://translate.google.cn/)
++   [ApacheCN 校对活动参与手册](https://github.com/apachecn/home/blob/master/docs/translate/joining-guide.md)
++   [译后编辑](https://www.bing.com/search?q=%E8%AF%91%E5%90%8E%E7%BC%96%E8%BE%91&mkt=zh-CN)
++   [当翻译竟然变成了文本编辑——李笑来](https://zhuanlan.zhihu.com/p/465979584)
++   [翻译引擎易错术语列表（欢迎补充）](https://github.com/apachecn/home/blob/master/docs/translate/trans-table.md)
++   [廖雪峰 Git 教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+
 ## 流程
 
 ### 一、认领
@@ -37,7 +47,7 @@
 +   `add`、`commit`和`push`
 +   `pull request`
 
-请见 [Github 入门指南](https://github.com/apachecn/kaggle/blob/master/docs/GitHub)。
+请见[廖雪峰 Git 教程](https://www.liaoxuefeng.com/wiki/896043488029600)。
 
 ## Markdown 排版要求
 
