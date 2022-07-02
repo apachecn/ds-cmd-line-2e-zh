@@ -22,9 +22,11 @@
 
 译文在`docs`目录下，原文请见每个文章开头处的链接。
 
-请见[校对活动参与手册](https://github.com/apachecn/home/blob/master/docs/translate/joining-guide.md)来提高效率。
-
 **注意**：不要修改译文的文件名，因为它们和章节对应！
+
+确保译文符合下方的【Markdown 排版要求】一节。
+
+请参考下方的【有用的正则表达式】一节来提高效率。
 
 ### 三、提交
 
