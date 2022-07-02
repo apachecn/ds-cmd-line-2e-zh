@@ -10,7 +10,7 @@
 
 ### 一、认领
 
-校对者需要熟练掌握 Markdown，以及文档的主题（编程，Web开发，大数据，AI，安全之一）。
+校对者需要熟练掌握 Markdown 和 Git，以及文档的主题（编程，Web开发，大数据，AI，安全之一）。
 
 首先查看[整体进度](https://github.com/apachecn/ds-cmd-line-2e-zh/issues/1)，确认没有人认领了你想认领的章节。
  
