@@ -40,6 +40,8 @@
 +   专业词汇
 +   格式
 
+语法无需校对因为已经校对完了，并且请最大程度保留原文的语言风格。
+
 译文在`docs`目录下，原文请见每个文章开头处的链接。
 
 请见[校对活动参与手册](https://github.com/apachecn/home/blob/master/docs/translate/joining-guide.md)来提高效率。
