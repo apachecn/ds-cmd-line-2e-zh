@@ -26,7 +26,7 @@
 
 确保译文符合下方的【Markdown 排版要求】一节。
 
-请参考下方的【有用的正则表达式】一节来提高效率。
+请参考下方的【有用的正则表达式】一节，以及[【翻译引擎易错术语列表】](https://github.com/apachecn/home/blob/master/docs/translate/trans-table.md)来提高效率。
 
 ### 三、提交
 
