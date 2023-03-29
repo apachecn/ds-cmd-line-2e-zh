@@ -31,14 +31,14 @@
 *   我尽可能把`csvkit`换成了`xsv`，`xsv`是处理 CSV 文件的一种更快的替代方式
 *   在 2.2 和 3.2 节中，我用 Docker 映像替换了 VirtualBox 映像，Docker 是一种比 VirtualBox 更快、更轻量级的运行隔离环境的方式
 *   我现在使用`pup`而不是`scrape`来处理 HTML`scrape`是我自己创造的一个 Python 工具，`pup`速度更快，功能更多，更易于安装
-*   [第六章](chapter-6-project-management-with-make.html#chapter-6-project-management-with-make)已经从头重写，我现在用`make`而不是`drake`来做项目管理，`drake`不再维护，`make`更加成熟，并且非常受开发者欢迎
+*   第六章已经从头重写，我现在用`make`而不是`drake`来做项目管理，`drake`不再维护，`make`更加成熟，并且非常受开发者欢迎
 *   我把`Rio`换成了`rush`，`Rio`是我自己创建的一个笨拙的 Bash 脚本，`rush`是一个 R 包，它是从命令行使用 R 的一种更加稳定和灵活的方式
 *   [在第九章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我用 Vowpal Wabbit ( `vw`)替换了 Weka 和 BigML，Weka 很旧，从命令行使用它的方式也很笨拙。BigML 是一个商业 API，我不想再依赖它。Vowpal Wabbit 是一个非常成熟的机器学习工具，它开始在雅虎开发，现在在微软。
-*   [第十章](https://datascienceatthecommandline.com/2e/chapter-10-polyglot-data-science.html)是关于将命令行集成到现有工作流的全新章节，包括 Python、R 和 Apache Spark。在第一版中，我提到过命令行可以很容易地与现有的工作流集成，但我从未深入探讨过，本章解决了这个问题
+*   第十章是关于将命令行集成到现有工作流的全新章节，包括 Python、R 和 Apache Spark。在第一版中，我提到过命令行可以很容易地与现有的工作流集成，但我从未深入探讨过，本章解决了这个问题
 
 ## 如何阅读这本书
 
-总的来说，我建议你以线性方式阅读这本书。一旦我在前面介绍了一个概念或命令行工具，我就有可能在后面的章节中用到它。例如，在[第九章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我大量使用了在[第八章](https://datascienceatthecommandline.com/2e/chapter-8-parallel-pipelines.html#chapter-8-parallel-pipelines)中广泛介绍的并行。
+总的来说，我建议你以线性方式阅读这本书。一旦我在前面介绍了一个概念或命令行工具，我就有可能在后面的章节中用到它。例如，在第九章中，我大量使用了在第八章中广泛介绍的并行。
 
 数据科学是一个广泛的领域，与许多其他领域都都有交叉，比如编程、数据可视化和机器学习。因此，这本书触及了许多有趣的话题，但遗憾的是，这些话题无法得到充分的讨论。在全书中，每一章的结尾都有进一步探索的建议。为了跟上本书的进度，并不要求阅读这些材料，但当你有兴趣时，你就知道还有很多东西要学。
 
