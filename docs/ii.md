@@ -33,7 +33,7 @@
 *   我现在使用`pup`而不是`scrape`来处理 HTML`scrape`是我自己创造的一个 Python 工具，`pup`速度更快，功能更多，更易于安装
 *   第六章已经从头重写，我现在用`make`而不是`drake`来做项目管理，`drake`不再维护，`make`更加成熟，并且非常受开发者欢迎
 *   我把`Rio`换成了`rush`，`Rio`是我自己创建的一个笨拙的 Bash 脚本，`rush`是一个 R 包，它是从命令行使用 R 的一种更加稳定和灵活的方式
-*   [在第九章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我用 Vowpal Wabbit ( `vw`)替换了 Weka 和 BigML，Weka 很旧，从命令行使用它的方式也很笨拙。BigML 是一个商业 API，我不想再依赖它。Vowpal Wabbit 是一个非常成熟的机器学习工具，它开始在雅虎开发，现在在微软。
+*   [在第九章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我用 Vowpal Wabbit（`vw`）替换了 Weka 和 BigML，Weka 很旧，从命令行使用它的方式也很笨拙。BigML 是一个商业 API，我不想再依赖它。Vowpal Wabbit 是一个非常成熟的机器学习工具，它开始在雅虎开发，现在在微软。
 *   第十章是关于将命令行集成到现有工作流的全新章节，包括 Python、R 和 Apache Spark。在第一版中，我提到过命令行可以很容易地与现有的工作流集成，但我从未深入探讨过，本章解决了这个问题
 
 ## 如何阅读这本书
