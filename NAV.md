@@ -166,7 +166,7 @@
     +   [OpenCV 中文文档 4.0.0](https://apachecn.github.io/opencv-doc-zh)
     +   [PythonProgramming.net 系列教程📚](https://apachecn.github.io/python-programming-net-zh)
     +   [PyTorch 中文教程](https://apachecn.github.io/pytorch-doc-zh)
-    +   [scikit-learn (sklearn) 官方文档中文版](https://apachecn.github.io/sklearn-doc-zh)
+    +   [scikit-learn (sklearn)官方文档中文版](https://apachecn.github.io/sklearn-doc-zh)
     +   [XGBoost 中文文档](https://apachecn.github.io/xgboost-doc-zh)
 +   计算机科学
     +   [JavaTPoint 计算机科学中文教程📚](https://apachecn.github.io/javatpoint-cs-zh)
