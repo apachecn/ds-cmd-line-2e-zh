@@ -28,7 +28,7 @@
 
 *   在我们的 [apachecn/ds-cmd-line-2e-zh](https://github.com/apachecn/ds-cmd-line-2e-zh) github 上提 issue.
 *   发邮件到 Email: `apachecn@163.com`.
-*   在我们的 [组织学习交流群](https://www.apachecn.org/#/docs/join) 中联系群主/管理员即可.
+*   在我们的[组织学习交流群](https://www.apachecn.org/#/docs/join) 中联系群主/管理员即可.
 
 ## 下载
 
