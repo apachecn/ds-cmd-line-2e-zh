@@ -6,13 +6,13 @@
 
 数据科学是一个令人兴奋的工作领域，相对而言它还比较年轻。不幸的是，许多人和许多公司都认为，你需要新技术来解决数据科学带来的问题。然而，正如这本书所展示的，许多事情可以通过使用命令行来完成，有时它是一种更有效的方式。
 
-在我读博士期间，我逐渐从使用微软 Windows 转向使用 Linux。因为这种过渡一开始有点吓人，所以我先把两个操作系统安装在一起(称为双启动)。在 Microsoft Windows 和 Linux 之间来回切换的冲动最终小时了，甚至在某个时候我开始摆弄 Arch Linux 了，它允许你从头开始构建自己的 Linux 机器。从 Linux 能得到的只是命令行，至于怎么做完全就看你自己了。出于需要，我很快就能非常自如地使用命令行了。最终，随着空闲时间变得越来越少，并且由于 Linux 发行版 Ubuntu 的易用性和庞大的社区，我最终选择了它作为我的操作系统，但是命令行仍然是我花费时间最多的地方。 
+在我读博士期间，我逐渐从使用微软 Windows 转向使用 Linux。因为这种过渡一开始有点吓人，所以我先把两个操作系统安装在一起（称为双启动）。在 Microsoft Windows 和 Linux 之间来回切换的冲动最终小时了，甚至在某个时候我开始摆弄 Arch Linux 了，它允许你从头开始构建自己的 Linux 机器。从 Linux 能得到的只是命令行，至于怎么做完全就看你自己了。出于需要，我很快就能非常自如地使用命令行了。最终，随着空闲时间变得越来越少，并且由于 Linux 发行版 Ubuntu 的易用性和庞大的社区，我最终选择了它作为我的操作系统，但是命令行仍然是我花费时间最多的地方。 
 
 事实上在不久之前，我就意识到命令行不仅仅是用来安装软件、配置系统和搜索文件的。我开始学习诸如`cut`、`sort`和`sed`之类的工具。这些都是命令行工具的例子，它们将数据作为输入，对其进行处理，并打印结果。Ubuntu 自带了其中一些小工具，当我意识到了利用这些小工具的潜力，我就被深深地吸引住了。
 
 在获得博士学位后，我成为了一名数据科学家，我就想尽可能多地使用命令行这种方法来做数据科学。多亏了一些新的开源命令行工具，包括`xml2json`、`jq`和`json2csv`，我甚至能够使用命令行来完成抓取网站和处理大量 JSON 数据等任务。
 
-2013 年 9 月，我决定写一篇名为[数据科学的七个命令行工具](http://www.jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html)的博客（译者：相关博客的内容是几个命令行工具的简要用法）。令我惊讶的是，这篇博文引起了相当多的反响，并且我收到了很多关于其他命令行工具的建议。于是我开始有了一个想法，我是不是可以把这篇博文扩充成一本书？大约 10 个月后，我在许多有才华的人的帮助下(见致谢)，给出了这个问题的答案——YES！
+2013 年 9 月，我决定写一篇名为[数据科学的七个命令行工具](http://www.jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html)的博客（译者：相关博客的内容是几个命令行工具的简要用法）。令我惊讶的是，这篇博文引起了相当多的反响，并且我收到了很多关于其他命令行工具的建议。于是我开始有了一个想法，我是不是可以把这篇博文扩充成一本书？大约 10 个月后，我在许多有才华的人的帮助下（见致谢），给出了这个问题的答案——YES！
 
 我分享这个故事并不是因为我想让你该知道这本书是怎么来的，而是因为我想表明一个事实：我也必须学习命令行。因为命令行与使用图形用户界面有很大的不同，所以它一开始看起来很吓人。但如果我能学会，那你应该也可以。不管你当前的操作系统是什么，也不管你当前如何处理数据，当你读完这本书后，你将能够以命令行的方式开展数据科学。如果您已经熟悉了命令行，即使说你熟的做梦都是 shell 编程了，但是你仍然有可能发现一些有趣的技巧或命令行工具，用于你的下一个数据科学项目。
 
@@ -26,7 +26,7 @@
 
 ## 第二版的变化
 
-虽然命令行作为一项技术和一种工作方式是不过时的，但第一版中讨论的一些工具要么已经被更新的工具取代(例如，`csvkit`几乎已经被`xsv`取代)，要么被它们的开发人员放弃(例如，`drake`），或者说它们已经是次优的选择(例如，`weka`)。自 2014 年 10 月第一版出版以来，我学到了很多东西，要么是通过我自己本身的经历，要么是来自读者有用的反馈。尽管这本书非常的小众，因为它位于两个学科的交叉点，但数据科学界仍然对它保持着稳定的兴趣，我几乎每天都收到的许多积极的消息就证明了这一点。通过更新第一版，我希望能让这本书至少再保持五年的相关性。以下是我所做的非详尽的改变清单：
+虽然命令行作为一项技术和一种工作方式是不过时的，但第一版中讨论的一些工具要么已经被更新的工具取代（例如，`csvkit`几乎已经被`xsv`取代），要么被它们的开发人员放弃（例如，`drake`），或者说它们已经是次优的选择（例如，`weka`)。自 2014 年 10 月第一版出版以来，我学到了很多东西，要么是通过我自己本身的经历，要么是来自读者有用的反馈。尽管这本书非常的小众，因为它位于两个学科的交叉点，但数据科学界仍然对它保持着稳定的兴趣，我几乎每天都收到的许多积极的消息就证明了这一点。通过更新第一版，我希望能让这本书至少再保持五年的相关性。以下是我所做的非详尽的改变清单：
 
 *   我尽可能把`csvkit`换成了`xsv`，`xsv`是处理 CSV 文件的一种更快的替代方式
 *   在 2.2 和 3.2 节中，我用 Docker 映像替换了 VirtualBox 映像，Docker 是一种比 VirtualBox 更快、更轻量级的运行隔离环境的方式
@@ -87,7 +87,7 @@
 
 Marc Canaleta 值得我们特别感谢。2014 年 10 月，在第一版问世后不久，马克邀请我为他在巴塞罗那 Social Point 的团队举办了为期一天的关于命令行的数据科学的研讨会。我们都不知道，接下来会有很多研讨会。这最终促使我成立了自己的公司：数据科学研讨会。每次授课，我都能学到新东西。他们可能不知道，但每个学生都以这样或那样的方式对这本书产生了影响。我对他们说：谢谢你们。我希望我可以在很长一段时间内教书。
 
-吸引人的对话、精彩的建议和热情的拉动请求。我非常感谢以下慷慨人士的每一个贡献：Adam Johnson, Andre Manook, Andrea Borruso, Andres Lowrie, Andrew Berisha, Andrew Gallant, Andrew Sanchez, Anicet Ebou, Anthony Egerton, Ben Isenhart, [. keep-together]#Chris Wiggins#, Chrys Wu, Dan Nguyen, Darryl Amatsetam, Dmitriy Rozhkov, Doug Needham, Edgar Manukyan, Erik Swan, Felienne Hermans, George Kampolis, Giel van Lankveld, Greg Wilson, Hay Kranen, Ioannis Cherouvim, Jake Hofman, Jannes Muenchow, Jared Lander, Jay Roaf, Jeffrey Perkel, Jim Hester, Joachim Hagege, Joel Grus, John Cook, John Sandall, Joost Helberg, Joost van Dijk, Joyce Robbins, Julian Hatwell。Karlo Guidoni, Karthik Ram, Lissa Hyacinth, Longhow Lam, Lui Pillmann, Lukas Schmid, Luke Reding, Maarten van Gompel, Martin Braun, Max Schelker, Max Shron, Nathan Furnal, Noah Chase, Oscar Chic, Paige Bailey, Peter Saalbrink, Rich Pauloo, Richard Groot, Rico Huijbers, Rob Doherty, Robbert van Vlijmen, Russell Scudder, Sylvain Lapoix, TJ Lavelle, Tan Long, Thomas Stone, Tim O'Reilly, Vincent Warmerdam, and Yihui X。
+吸引人的对话、精彩的建议和热情的拉动请求。我非常感谢以下慷慨人士的每一个贡献：Adam Johnson, Andre Manook, Andrea Borruso, Andres Lowrie, Andrew Berisha, Andrew Gallant, Andrew Sanchez, Anicet Ebou, Anthony Egerton, Ben Isenhart, Chris Wiggins, Chrys Wu, Dan Nguyen, Darryl Amatsetam, Dmitriy Rozhkov, Doug Needham, Edgar Manukyan, Erik Swan, Felienne Hermans, George Kampolis, Giel van Lankveld, Greg Wilson, Hay Kranen, Ioannis Cherouvim, Jake Hofman, Jannes Muenchow, Jared Lander, Jay Roaf, Jeffrey Perkel, Jim Hester, Joachim Hagege, Joel Grus, John Cook, John Sandall, Joost Helberg, Joost van Dijk, Joyce Robbins, Julian Hatwell。Karlo Guidoni, Karthik Ram, Lissa Hyacinth, Longhow Lam, Lui Pillmann, Lukas Schmid, Luke Reding, Maarten van Gompel, Martin Braun, Max Schelker, Max Shron, Nathan Furnal, Noah Chase, Oscar Chic, Paige Bailey, Peter Saalbrink, Rich Pauloo, Richard Groot, Rico Huijbers, Rob Doherty, Robbert van Vlijmen, Russell Scudder, Sylvain Lapoix, TJ Lavelle, Tan Long, Thomas Stone, Tim O'Reilly, Vincent Warmerdam, and Yihui X。
 
 在本书中，特别是在脚注和附录中，你会发现有数百个名字。这些名字属于许多工具、书籍和其他资源的作者，而本书正是基于这些资源。我非常感谢他们的辛勤工作，无论这些工作是在 50 年前还是 50 天前完成的。
 
