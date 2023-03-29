@@ -75,9 +75,9 @@
 > This element indicates a warning or caution.
 
 
-## 承认
+## 致谢
 
-### 第二版（2021）致谢
+### 第二版致谢（2021）
 
 自第一版问世以来，已经过去了七年。在这段时间里，特别是在过去 13 个月里，许多人帮助了我。没有他们，我就永远无法写出第二版。
 
@@ -93,7 +93,7 @@ Marc Canaleta 值得我们特别感谢。2014 年 10 月，在第一版问世后
 
 最重要的是，我要感谢我的妻子 Esther、我的女儿 Florien 和我的儿子 Olivier，他们每天都在提醒我什么才是真正重要的。我保证要过几年才会开始写第三版。
 
-### 第一版致谢 (2014)
+### 第一版致谢（2014）
 
 首先，我要感谢 Mike Dewar 和 Mike Loukides，他们相信我在 2013 年 9 月写的博客文章[七个数据科学命令行工具](http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html)可以扩展成一本书。
 
