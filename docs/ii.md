@@ -38,7 +38,7 @@
 
 ## 如何阅读这本书
 
-总的来说，我建议你以线性方式阅读这本书。一旦我在前面介绍了一个概念或命令行工具，我就有可能在后面的章节中用到它。例如，在[第 9 章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我大量使用了在[第八章](https://datascienceatthecommandline.com/2e/chapter-8-parallel-pipelines.html#chapter-8-parallel-pipelines)中广泛介绍的并行。
+总的来说，我建议你以线性方式阅读这本书。一旦我在前面介绍了一个概念或命令行工具，我就有可能在后面的章节中用到它。例如，在[第九章](https://datascienceatthecommandline.com/2e/chapter-9-modeling-data.html#chapter-9-modeling-data)中，我大量使用了在[第八章](https://datascienceatthecommandline.com/2e/chapter-8-parallel-pipelines.html#chapter-8-parallel-pipelines)中广泛介绍的并行。
 
 数据科学是一个广泛的领域，与许多其他领域都都有交叉，比如编程、数据可视化和机器学习。因此，这本书触及了许多有趣的话题，但遗憾的是，这些话题无法得到充分的讨论。在全书中，每一章的结尾都有进一步探索的建议。为了跟上本书的进度，并不要求阅读这些材料，但当你有兴趣时，你就知道还有很多东西要学。
 
